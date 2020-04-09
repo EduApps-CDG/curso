@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:fillViewport="true"
+	android:background="#97C7FF">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="10dp">
+
+		<EditText
+			android:layout_width="match_parent"
+			android:inputType="textPersonName"
+			android:layout_height="wrap_content"
+			android:ems="10"
+			android:hint="Digite seu Nome"
+			android:id="@+id/NOME"/>
+
+		<EditText
+			android:layout_width="match_parent"
+			android:inputType="textEmailAddress"
+			android:layout_height="wrap_content"
+			android:ems="10"
+			android:hint="Seu Email"
+			android:layout_marginBottom="10dp"
+			android:layout_marginTop="10dp"
+			android:id="@+id/EMAIL"/>
+
+		<EditText
+			android:layout_width="match_parent"
+			android:inputType="textPassword"
+			android:layout_height="wrap_content"
+			android:ems="10"
+			android:hint="Senha"
+			android:id="@+id/SENHA"/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Sexo:"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_marginTop="10dp"/>
+
+		<RadioGroup
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/SEXO">
+
+			<RadioButton
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Masculo"/>
+
+			<View
+				android:background="?android:attr/dividerVertical"
+				android:layout_width="match_parent"
+				android:layout_height="1dp"/>
+
+			<RadioButton
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Fêmea"/>
+
+			<View
+				android:background="?android:attr/dividerVertical"
+				android:layout_width="match_parent"
+				android:layout_height="1dp"/>
+
+			<RadioButton
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Travecão"/>
+
+		</RadioGroup>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Curso:"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_marginTop="10dp"/>
+
+		<RadioGroup
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/CURSO">
+
+			<RadioButton
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Informatica"/>
+
+			<View
+				android:background="?android:attr/dividerVertical"
+				android:layout_width="match_parent"
+				android:layout_height="1dp"/>
+
+			<RadioButton
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Administração"/>
+
+			<View
+				android:background="?android:attr/dividerVertical"
+				android:layout_width="match_parent"
+				android:layout_height="1dp"/>
+
+			<RadioButton
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Gestão de Qualidade (duvidosa)"/>
+
+		</RadioGroup>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Turno:"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_marginTop="10dp"/>
+
+		<RadioGroup
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/TURNO">
+
+			<RadioButton
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Manhã"/>
+
+			<View
+				android:background="?android:attr/dividerVertical"
+				android:layout_width="match_parent"
+				android:layout_height="1dp"/>
+
+			<RadioButton
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Tarde"/>
+
+			<View
+				android:background="?android:attr/dividerVertical"
+				android:layout_width="match_parent"
+				android:layout_height="1dp"/>
+
+			<RadioButton
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Noite"/>
+
+		</RadioGroup>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Notas:"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_marginTop="10dp"/>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:paddingTop="10dp"
+			android:paddingBottom="10dp">
+
+			<EditText
+				android:layout_width="0dp"
+				android:inputType="numberDecimal"
+				android:layout_height="wrap_content"
+				android:ems="10"
+				android:layout_weight="1"
+				android:hint="Prova 1"
+				android:id="@+id/NOTA1"/>
+
+			<EditText
+				android:layout_width="0dp"
+				android:inputType="numberDecimal"
+				android:layout_height="wrap_content"
+				android:ems="10"
+				android:layout_weight="1"
+				android:hint="Prova 2"
+				android:id="@+id/NOTA2"/>
+
+			<EditText
+				android:layout_width="0dp"
+				android:inputType="numberDecimal"
+				android:layout_height="wrap_content"
+				android:ems="10"
+				android:layout_weight="1"
+				android:hint="Prova 3"
+				android:id="@+id/NOTA3"/>
+
+			<EditText
+				android:layout_width="0dp"
+				android:inputType="numberDecimal"
+				android:layout_height="wrap_content"
+				android:ems="10"
+				android:layout_weight="1"
+				android:hint="Prova 4"
+				android:id="@+id/NOTA4"/>
+
+		</LinearLayout>
+
+		<Button
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Calcular Resultado"
+			android:layout_gravity="bottom"
+			android:layout_marginTop="15dp"
+			android:id="@+id/CALCULAR"/>
+
+	</LinearLayout>
+
+</ScrollView>
+

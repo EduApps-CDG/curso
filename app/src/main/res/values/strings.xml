@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Curso</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="text">Esse texto é <b>bold</b>. esse texto é <font color="#FF0000">foda</font>!</string>
+</resources>

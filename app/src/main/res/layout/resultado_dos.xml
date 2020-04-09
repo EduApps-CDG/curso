@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:id="@+id/BG"
+	android:background="#000000">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:text="Erro"
+		android:layout_weight="1.0"
+		android:layout_margin="10dp"
+		android:background="#FFFFFF"
+		android:padding="10dp"
+		android:gravity="center_horizontal"
+		android:typeface="monospace"
+		android:id="@+id/RESULTADO"/>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Deseja pagar por uma nota melhor?"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:gravity="center"
+			android:textColor="#F7F7F7"
+			android:textColorHighlight="#000000"/>
+
+		<Button
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Apenas R$10,00!"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
